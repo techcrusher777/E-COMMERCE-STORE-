@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - E-Phone Store</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <img src="logo.png" alt="papai.com">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="resale value.html">Resale value</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+            <div class="nav-right">
+                <span class="contact">Toll free : 1800 0002 4543</span>
+                <span class="user">papai, ABDUL RAHMAN</span>
+                <a href="contactus.html"><button class="cta-button">Contact Us</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart-section">
+        <div class="cart-container">
+            <h2>Your Shopping Cart</h2>
+            <div class="cart-item">
+                <img src="phone1.png" alt="Samsung Galaxy A35">
+                <div class="item-details">
+                    <h3>SAMSUNG Galaxy A35 5G</h3>
+                    <p>128GB Unlocked Android Smartphone</p>
+                    <p class="price">$299.99</p>
+                    <input type="number" value="1" min="1" class="quantity">
+                    <button class="remove-button">Remove</button>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="phone2.png" alt="Samsung Galaxy S24 Ultra">
+                <div class="item-details">
+                    <h3>SAMSUNG Galaxy S24 Ultra</h3>
+                    <p>256GB AI Smartphone, 200MP Camera</p>
+                    <p class="price">$999.99</p>
+                    <input type="number" value="1" min="1" class="quantity">
+                    <button class="remove-button">Remove</button>
+                </div>
+            </div>
+            <div class="cart-total">
+                <h3>Total: $1,299.98</h3>
+                <button class="cta-button">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 E-Phone Store | All rights reserved.</p>
+    </footer>
+</body>
+</html>
